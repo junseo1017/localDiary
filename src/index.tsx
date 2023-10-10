@@ -10,9 +10,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <RecoilRoot>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </RecoilRoot>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );

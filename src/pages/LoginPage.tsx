@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import { useForm, SubmitHandler } from "react-hook-form";
+import LoginForm from "../component/LoginForm";
 
-class LoginPage extends Component {
-  render() {
-    return <div></div>;
-  }
+function LoginPage() {
+  return <LoginForm />;
 }
 
 export default LoginPage;
