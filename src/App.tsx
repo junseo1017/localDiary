@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 import { constProperties } from "./constant/constant";
 import LoginPage from "./pages/LoginPage";
+import MainPage from "./pages/MainPage";
 
 function App() {
   const [hello, setHello] = useState("");
@@ -18,7 +19,7 @@ function App() {
   return (
     <RecoilRoot>
       <Routes>
-        {/* <Route path="/" element={}/> */}
+        <Route path="/" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </RecoilRoot>
