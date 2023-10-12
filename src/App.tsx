@@ -5,7 +5,7 @@ import { RecoilRoot } from "recoil";
 import { constProperties } from "./constant/constant";
 import LoginPage from "./pages/LoginPage";
 import MainPage from "./pages/MainPage";
-
+import "./app.css";
 function App() {
   const [hello, setHello] = useState("");
 
