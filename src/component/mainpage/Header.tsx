@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => {
-  return <div>mainpageメインページ</div>;
+  return <div>mainpage</div>;
 };
 
 export default Header;
