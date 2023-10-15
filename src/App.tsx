@@ -9,12 +9,12 @@ import "./app.css";
 function App() {
   const [hello, setHello] = useState("");
 
-  useEffect(() => {
-    axios
-      .get("/test")
-      .then((response) => setHello(response.data))
-      .catch((error) => console.log(error));
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get("/test")
+  //     .then((response) => setHello(response.data))
+  //     .catch((error) => console.log(error));
+  // }, []);
 
   return (
     <RecoilRoot>
